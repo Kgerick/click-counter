@@ -1,0 +1,33 @@
+#container{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+
+.click-title{
+    color: white;
+    background: linear-gradient(90deg, white, gray, black);
+    box-shadow: 0 0 30px white;
+}
+
+body{
+    background: linear-gradient(90deg, black, gray, white);
+}
+
+.words, .count{
+    font-size: 20px;
+}
+
+button{
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    transform: scale(2);
+    color: purple;
+    background-color: violet;
+}
